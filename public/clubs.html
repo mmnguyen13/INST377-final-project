@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clubs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="clubs.html">Clubs</a>
+    </nav>
+
+    <div class="container">
+        <h1>Club Finder</h1>
+        <p>Search for student clubs by name or category, or add a new club to the list.</p>
+
+        <input
+            type="text"
+            id="search-input"
+            placeholder="Search clubs..."
+        >
+
+        <form id="club-form">
+
+            <input
+                type="text"
+                id="club-name"
+                placeholder="Club Name"
+            >
+        
+            <input
+                type="text"
+                id="club-category"
+                placeholder="Category"
+            >
+        
+            <button type="submit">Add Club</button>
+        
+        </form>
+
+        <div id="club-list">
+            <p>Club list will appear here.</p>
+        </div>
+
+        <div id="activity-box">
+            <h2>Random Campus Break Idea</h2>
+            <p id="activity-text">Activity will appear here.</p>
+            <button id="activity-button">Get Activity</button>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+
+</body>
+</html>
